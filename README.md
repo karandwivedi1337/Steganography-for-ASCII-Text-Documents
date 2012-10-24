@@ -6,9 +6,13 @@ An implementation of the research paper titled "Enhanced Text Steganography-for-
 File description:
 
 mini.c: Contains code to be run on the side attempting to send a secret message.
+
 revmini.c: Code to be run on the side receiving the message.
+
 basecover.txt: Sample cover text (gibberish). Contains a lot of repetitions. (A program for random and dynamic cover text generation is welcome!)
+
 table.txt: Used to form a database of equivalent american and british english words.
+
 secret.txt: Secret message to be sent to the receiving side
 
 Output files generated:
