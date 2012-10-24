@@ -19,13 +19,19 @@ Output files generated:
 
 1. Sending side:
     i) compressed.txt.gz: file containing the compressed secret message
+
     ii) encrypted.txt: encrypted secret message
+    
     iii) Cover.txt : the file to be sent to the receiving side (stego-object)
+    
 
 2. Receiving side:
     i) decrypted.txt.gz : file containing the compressed secret message
+
     ii) decryptme.txt: file containing the encrypted secret message
+    
     iii) message.txt: The secret message
+    
 
 Compile instructions:
 
