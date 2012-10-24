@@ -18,6 +18,7 @@ secret.txt: Secret message to be sent to the receiving side
 Output files generated:
 
 1. Sending side:
+
     i) compressed.txt.gz: file containing the compressed secret message
 
     ii) encrypted.txt: encrypted secret message
@@ -26,6 +27,7 @@ Output files generated:
     
 
 2. Receiving side:
+
     i) decrypted.txt.gz : file containing the compressed secret message
 
     ii) decryptme.txt: file containing the encrypted secret message
@@ -40,6 +42,7 @@ revmini.c requires linking with math library (-lm)
 Improvements done apart from those mentioned in the paper:
 
 1. Optimized data structures for fast parsing of the cover text.
+
 2. Gzip is used instead of paq8p to decrease the compression time while still maintaining a good enough compression ratio.
 
 Using the above two, the code runs in negligible time when profiled using gprof.
